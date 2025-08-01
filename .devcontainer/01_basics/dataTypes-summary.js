@@ -31,3 +31,26 @@ console.log("Hello World")
 }
 
 console.log(myObj)
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Memories :2 type -Stack(Primitive),Heap(Non-primitive)
+let myUtube="Sunnydotcom"
+let anothename =myUtube
+anothename="Chai aur code"
+console.log(anothename)
+console.log(myUtube)
+//after changing the anothername to "chai aur code" the previous one is still having the old name
+
+let user={
+    email:"user@gmail.com",
+    upi:"okaxis.com"
+}
+
+let user2= user
+
+user2.email = "netflix@gmail.com"
+console.log(user.email);
+console.log(user2.email)
+//They are going to heap so both of them are getting changed
